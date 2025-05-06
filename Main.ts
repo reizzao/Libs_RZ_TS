@@ -1,12 +1,15 @@
-import { log } from "./Entitys/LogConsole"
+// import { Console } from "@libs"
+import { Console } from "./src/Entitys/Console/index.ts"
 
 interface LibTS {
-  Console: () => void
+  Log: (...a: any) => void
 }
 
 const Lib_RzTS: LibTS = {
-  Console: log,
+  Log: Console.log,
 }
+
+
 
 export { Lib_RzTS }
 
