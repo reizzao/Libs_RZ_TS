@@ -1,6 +1,6 @@
 {
   "imports": {
-    "@/": "./src/",
-    "@libs": "./src/Global/Exports.Modules.Global.ts"
+    "@/": "./",
+    "@deps": "./src/Global/deps.ts"
   }
 }
